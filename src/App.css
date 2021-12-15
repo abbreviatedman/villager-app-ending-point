@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+
+.villager-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin: 15px;
+}
+
+.villager-card {
+  min-width: 270px;
+  background-color: wheat;
+  border-radius: 5px;
+}
